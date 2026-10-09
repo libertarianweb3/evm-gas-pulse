@@ -1,0 +1,27 @@
+{
+  "name": "evm-gas-pulse",
+  "version": "1.0.0",
+  "description": "Ultra-lightweight, zero-dependency multi-chain EVM Gas pulse and priority fee tracker CLI with threshold webhooks",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "evm-gas-pulse": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node bin/cli.js"
+  },
+  "keywords": [
+    "evm",
+    "gas",
+    "ethereum",
+    "base",
+    "arbitrum",
+    "polygon",
+    "optimism",
+    "web3",
+    "cli"
+  ],
+  "author": "libertarianweb3",
+  "license": "MIT"
+}
